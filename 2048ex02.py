@@ -1,10 +1,8 @@
-import numpy as np
+# Exercice 02:  Ajout de Nouveaux elements dans la grille.
+
 def add_new(grid):
-    empty_cells = np.argwhere(grid == 0)
-    if len(empty_cells) > 0:
-        cell = empty_cells[np.random.randint(len(empty_cells))]
-        if np.random.uniform() < 0.8:
-            grid[tuple(cell)] = 2
-        else:
-            grid[tuple(cell)] = 4
+    ajout_valeur = random.choice([2, 2, 2, 2, 4])  # 5 elements 100% 4 elements 80% + 1 element 20%
+    position = random.choice(list(
+        zip(*np.where(grid == 0))))  # Ajout de la valeur precedente dans la grille ou la valeur de la cellule est de 0
+    grid[position] = ajout_valeur
     return grid
