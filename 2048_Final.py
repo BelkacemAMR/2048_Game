@@ -21,10 +21,7 @@ def add_new(grid):
     grid[position] = ajout_valeur
     return grid
 
-# Exercice 03 :
 
-# exercice 3:
-# la fonction qui fait rouler la ligne vers la gauche et la retourne
 
 def rollin_row(row):
 # initialisation de la ligne
