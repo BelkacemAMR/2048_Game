@@ -1,6 +1,6 @@
 
 # exercice 3:
-# la fonction qui fait rouler la ligne vers la gauche et la retourne
+# la fonction qui fait rouler la ligne vers la gauche et la retourne:
 def rollin_row(row):
 # initialisation de la ligne
     new_row = [0,0,0,0]
