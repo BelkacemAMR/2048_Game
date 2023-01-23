@@ -62,3 +62,31 @@ def rollin(grid, direction):
         return np.transpose(rollin(np.transpose(grid), 'l'))
     elif direction == 'd':
         return np.transpose(rollin(np.transpose(grid), 'r'))
+
+
+# Excerice 05:
+
+def my2048():
+    grid = [[0 for _ in range(4)] for _ in range(4)]
+    add_new(grid)
+    add_rew(grid)
+
+    while True:
+        print(grid)
+        try:
+            move = input("Enter a move (u, d, l, r): ")
+            if move not in ["u", "d", "l", "r"]:
+                raise ValueError
+            grid_before = [row[:] for row in grid]
+            grid = update_grid(grid, move)
+            if grid_before == grid:
+                print("The grid is stuck.")
+                break
+            add_random_element(grid)
+        except ValueError:
+            print("Unknown command. Press l, r, u or d + Enter.")
+
+    print("Game Over!")
+
+# if __name__ == "__main__":
+my2048()
