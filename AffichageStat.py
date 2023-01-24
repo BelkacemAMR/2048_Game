@@ -10,16 +10,12 @@ down = 30
 left = 60
 right = 100
 
-
-
 fig, ax = plt.subplots(figsize=(6, 3), subplot_kw=dict(aspect="equal"))
 
 data = [up,
           down,
           left,
           right]
-
-
 
 Bouton = "up", "down", "left", "right"
 
@@ -41,9 +37,6 @@ plt.setp(autotexts, size=8, weight="bold")
 ax.set_title("% de push sur les boutons directionelles lors d'une session de jeu 2048")
 
 plt.show()
-
-
-
 
 #########################################################################################################################################################
 fig, ax = plt.subplots(figsize=(6, 3), subplot_kw=dict(aspect="equal"))
@@ -97,7 +90,7 @@ fig.suptitle("Nbre de pushs lors d'une cession de jeu de 2048")
 
 
 ###############################################################################
-# This works on both axes:
+# Cela fonctionne sur les deux axes:
 data1 = [up, down, left,  right]
 
 activity = ["Up", "Down", "Left", "Right"]
