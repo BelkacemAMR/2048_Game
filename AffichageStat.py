@@ -92,7 +92,6 @@ axs[1].scatter(names, values)
 axs[2].plot(names, values)
 fig.suptitle("Nbre de pushs lors d'une cession de jeu de 2048")
 
-
 ###############################################################################
 # This works on both axes:
 data1 = [up, down, left,  right]
