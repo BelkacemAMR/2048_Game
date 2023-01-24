@@ -10,15 +10,12 @@ down = 30
 left = 60
 right = 100
 
-
-
 fig, ax = plt.subplots(figsize=(6, 3), subplot_kw=dict(aspect="equal"))
 
 data = [up,
           down,
           left,
           right]
-
 
 
 Bouton = "up", "down", "left", "right"
@@ -106,5 +103,5 @@ fig, ax = plt.subplots()
 ax.plot(activity,data1, label="Joueur1")
 #ax.plot(activity, data, label="Joeurs2")
 ax.legend (title="Nbre de pushs lors d'une cession de jeu de 2048")
-
+#affichage des graph#
 plt.show()
