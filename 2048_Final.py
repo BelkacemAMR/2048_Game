@@ -1,7 +1,6 @@
 import numpy as np
 import random
 
-
 # Exercice 01 :  Initialisation de la grille avec
 
 def init_grid():
@@ -9,8 +8,6 @@ def init_grid():
     grid[np.random.randint(4), np.random.randint(4)] = 2  # Generer aleatoirement 2 sur la matrice
     grid[np.random.randint(4), np.random.randint(4)] = 2  # Generer aleatoirement 2 sur la matrice
     return grid
-
-
 
 # Exercice 02:  Ajout de Nouveaux elements dans la grille.
 
@@ -20,8 +17,6 @@ def add_new(grid):
         zip(*np.where(grid == 0))))  # Ajout de la valeur precedente dans la grille ou la valeur de la cellule est de 0
     grid[position] = ajout_valeur
     return grid
-
-
 
 def rollin_row(row):
 # initialisation de la ligne
