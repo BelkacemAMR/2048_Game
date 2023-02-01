@@ -1,7 +1,6 @@
 import numpy as np
 import random
 
-
 # Exercice 01 :  Initialisation de la grille avec
 
 def init_grid():
