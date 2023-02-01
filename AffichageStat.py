@@ -38,7 +38,7 @@ ax.set_title("% de push sur les boutons directionelles lors d'une session de jeu
 
 plt.show()
 
-#########################################################################################################################################################
+########################################################################################################
 fig, ax = plt.subplots(figsize=(6, 3), subplot_kw=dict(aspect="equal"))
 wedges, texts = ax.pie(data, wedgeprops=dict(width=0.5), startangle=-40)
 
@@ -60,7 +60,7 @@ ax.set_title("% de push sur les boutons directionelles lors d'une session de jeu
 
 plt.show()
 
-######################################################################################################################################
+#########################################################################################################
 fig, ax = plt.subplots()
 
 Directions = ['Up', 'Down', 'Left', 'Right']
@@ -76,7 +76,7 @@ ax.legend(title='Nbre de Push sur les touches directionelles')
 
 plt.show()
 
-###########################################################################################################################"
+##############################################################################################################
 
 data = {'Up': up, 'Down': down, 'Left': left, 'Right': right}
 names = list(data.keys())
