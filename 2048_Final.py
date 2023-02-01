@@ -58,7 +58,6 @@ def rollin(grid, direction):
     elif direction == 'd':
         return np.transpose(rollin(np.transpose(grid), 'r'))
 
-
 # Excerice 05:
 
 def my2048():
