@@ -11,7 +11,9 @@ Ce projet a été réalisé dans le cadre de la formation Data Analyst à La Man
 
 ## Description du programme
 
-Le programme implémente le jeu 2048 en utilisant la bibliothèque Pygame pour l'interface graphique. Le joueur peut déplacer les blocs numérotés sur une grille en utilisant les touches directionnelles (haut, bas, gauche, droite). L'objectif du jeu est de fusionner les blocs pour atteindre le nombre 2048. Le score du joueur est calculé en fonction des fusions réalisées.
+Le programme implémente le jeu 2048 en utilisant la bibliothèque Pygame pour l'interface graphique. Le joueur peut déplacer les blocs numérotés sur une grille en utilisant les touches directionnelles (haut, bas, gauche, droite). 
+
+L'objectif du jeu est de fusionner les blocs pour atteindre le nombre 2048. Le score du joueur est calculé en fonction des fusions réalisées.
 
 ## Prérequis
 
